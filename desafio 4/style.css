@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+}
+
+main {
+    padding: 10% 15%;
+    color: hsla(0, 0%, 100%, 0.884);
+    font-family: 'Figtree';
+}
+
+article {
+    display: flex;
+}
+
+section {
+    padding: 5% 6%;
+}
+
+.sedans {
+    background-color: #e38826;
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    background-color: #006970;
+}
+
+.luxury {
+    background-color: #004241;
+    border-radius: 0 10px 10px 0;
+}
+
+h2 {
+    font-family: "Antonio";
+    margin-bottom: 15%;
+}
+
+p {
+    margin-bottom: 55%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttomsedan {
+    background-color: white;
+    color: #e38826;
+    border-radius: 20px;
+    margin: 0 30% 0 0;
+    padding: 5% 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.buttomsuvs {
+    background-color: white;
+    color: #006970;
+    border-radius: 20px;
+    margin: 0 30% 0 0;
+    padding: 5% 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.buttomluxury {
+    background-color: white;
+    color:#004241;
+    border-radius: 20px;
+    margin: 0 30% 0 0;
+    padding: 5% 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.buttomsedan:hover {
+    margin: 0 30% 0 0;
+    padding: 5% 0;
+    color: white;
+    background-color: #e38826;
+    border: 1px solid white
+}
+
+.buttomsuvs:hover {
+    margin: 0 30% 0 0;
+    padding: 5% 0;
+    color: white;
+    background-color: #006970;
+    border: 1px solid white
+}
+
+.buttomluxury:hover {
+    margin: 0 30% 0 0;
+    padding: 5% 0;
+    color: white;
+    background-color: #004241;
+    border: 1px solid white
+}
+
+footer button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: -60%;
+    border: solid rgba(255, 255, 255, 0) 1px;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #214b3b;
+    padding: 15px;
+}
+
+.prev {
+  background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 0%;
+    border: solid white 1px;
+    transition: 0.3s;
+}
+
+.prev a {
+  text-decoration: none;
+    color: #214b3b;
+}
+
+footer button:hover {
+    background: linear-gradient(to right, #e38826, #006970);
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: -60%;
+    border: solid rgba(255, 255, 255, 0) 1px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.prev:hover {
+    background: linear-gradient(to right, #e38826, #006970);
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 0%;
+}
+
+.prev a:hover {
+  text-decoration: none;
+    color: #ffffff;
+}

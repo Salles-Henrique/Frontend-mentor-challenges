@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <style>
+    main {
+      border: 0px solid;
+      margin: 200px 350px 200px 300px;
+      padding-bottom: 0px;
+      background-color: white;
+      border-radius: 30px;
+      display: flex;
+    }
+
+    .image1 {
+      border-radius: 30px 0px 0px 30px;
+      width: 300px;
+    }
+
+    .sec1 {
+      display: flex;
+
+    }
+
+    .sec2 {
+      display: flex;
+    }
+
+    button {
+      display: flex;
+      background-color: #3c8067;
+      border-radius: 20px;
+      border: 0px solid;
+      width: 250px;
+      height: 50px;
+      margin: 0px 0px 0px 45px;
+    }
+    .zoom:hover {
+      background-color: #80b9a4;
+    }
+
+    footer button {
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    right: -60%;
+    border: solid white 1px;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #3c8067;
+    padding: 15px;
+}
+
+.prev {
+  background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    right: 5%;
+    border: solid white 1px;
+    transition: 0.3s;
+}
+
+.prev a {
+  text-decoration: none;
+    color: #3c8067;
+}
+
+footer button:hover {
+    background-color: #3c8067;
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    right: -60%;
+    border: solid rgba(255, 255, 255, 0) 1px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.prev:hover {
+  background-color: #3c8067;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    right: 5%;
+}
+
+.prev a:hover {
+  text-decoration: none;
+    color: #ffffff;
+}
+  </style>
+</head>
+
+<body style="background-color: #f2ebe3;">
+  <main>
+    <article>
+      <img src="image-product-desktop.jpg" alt="" class="image1">
+    </article>
+    <section>
+      <h3 style="padding: 0px 0px 0px 30px; font-family: sans-serif; font-size: 15px; color:#6c7289 ;"> PERFUME </h3>
+      <h1 style="font-size: 30px; padding: 0px 0px 0px 30px;"> Gabrielle <br> Essence Eau <br> De Parfum </h1>
+      <p style="font-size: 14px; padding: 0px 0px 0px 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;color: #6b718a;"> A
+        floral, solar and voluptuous <br> interpretation composed by <br> Olivier Polge,
+        Perfumer-Creator <br> for the House of CHANEL. </p>
+      <section class="sec1">
+        <h2 style="color: #3c8067; padding: 0px 20px 0px 90px; font-size: 30px;"> $149.99 </h2>
+        <h4> <del>$169.99</del> </h4>
+      </section>
+      <section class="sec2">
+        <a href="https://www.instagram.com/webs.abi/" target="_blank" style="text-decoration: none;">
+          <button class="zoom">
+            <img src="icon-cart.svg" alt=""
+              style="margin: 10px 30px 30px 30px; width: 15px; height: 20px; align-items: center;">
+            <h3
+              style="text-align: center;color: aliceblue;font-size: 20px; margin: 10px 0px 0px 0px;text-align: center;">
+              Add to Cart</h3>
+          </button>
+        </a>
+      </section>
+  </main>
+
+  <footer>
+    <nav>
+      <button><a href="../desafio 3/index.html" target="_blank">Next Challenges</a></button>
+
+      <button class="prev"><a href="../index.html">Previous Challenge</a></button>
+    </nav>
+  </footer>
+
+</body>
+</html>
