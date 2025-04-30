@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #090b1a;
+    color: white;
+    margin: 0;
+}
+
+main {
+    background-color: #1b1938;
+    color: white;
+    margin: 50px 170px 0 110px;
+    display: flex;
+    border-radius: 20px;
+    font-family: "Inter";
+}
+
+article {
+    padding: 0 0 0 50px;
+}
+
+article h1 {
+    font-size: 45px;
+}
+
+img {
+    filter:
+   /* deixa em P&B puro */
+   grayscale(100%)
+   /* base quente para poder “rotacionar” matiz */
+   sepia(100%)
+   /* extremiza a cor pra sobrar só o matiz desejado */
+   saturate(600%)
+   /* 30° (sepia) → 247° = 277° */
+   hue-rotate(230deg)
+   /* afina a luminosidade para ~61% */
+   brightness(74%)
+   /* suaviza contrastes fortes */
+   contrast(82%);
+}
+
+.color {
+    color: #aa5cdb;
+}
+
+p {
+    padding-bottom: 40px;
+    font-family: "Lexend Deca";
+    font-size: 17px;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.numbers {
+    display: flex;
+    font-family: "Lexend Deca";
+    font-size: 25px;
+}
+
+.companies span {
+    position: relative;
+    bottom: -30px;
+    left: -80px;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.tamplates span {
+    position: relative;
+    bottom: -30px;
+    left: -60px;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.queries span {
+    position: relative;
+    bottom: -30px;
+    left: -75px;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+section img {
+    position: relative;
+    right: -29%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
