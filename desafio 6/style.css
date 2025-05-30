@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: #090b1a;
+    color: white;
+    margin: 0;
+}
+
+main {
+    background-color: #1b1938;
+    color: white;
+    margin-top: 5rem;
+    width: 81.5vw;
+    position: relative;
+    left: 10vw;
+    display: flex;
+    border-radius: 2rem;
+    font-family: "Inter";
+}
+
+article {
+    padding: 2rem 0 9rem 5rem;
+}
+
+article h1 {
+    font-size: 4.5rem;
+}
+
+img {
+    filter:
+   /* deixa em P&B puro */
+   grayscale(100%)
+   /* base quente para poder “rotacionar” matiz */
+   sepia(100%)
+   /* extremiza a cor pra sobrar só o matiz desejado */
+   saturate(600%)
+   /* 30° (sepia) → 247° = 277° */
+   hue-rotate(230deg)
+   /* afina a luminosidade para ~61% */
+   brightness(74%)
+   /* suaviza contrastes fortes */
+   contrast(82%);
+}
+
+.color {
+    color: #aa5cdb;
+    font-size: 4.5rem;
+}
+
+p {
+    padding-bottom: 4rem;
+    font-family: "Lexend Deca";
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.numbers {
+    display: flex;
+    font-family: "Lexend Deca";
+    font-size: 2.5rem;
+}
+
+.companies {
+    font-size: 3rem;
+}
+
+.companies span {
+    position: relative;
+    bottom: -3rem;
+    left: -9rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.tamplates {
+    font-size: 3rem;
+}
+.tamplates span {
+    position: relative;
+    bottom: -3rem;
+    left: -7rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.queries {
+    font-size: 3rem;
+}
+.queries span {
+    position: relative;
+    bottom: -3rem;
+    left: -8.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+section img {
+    position: relative;
+    right: -7.8vw;
+    width: 35vw;
+    height: 65vh;
+    border-radius: 0 2rem 2rem 0;
+}
+
+footer button {
+        background-color: #3b3679;
+        border-radius: 1rem;
+        display: inline-block;
+        width: 15rem;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+        top: 0rem;
+        right: -30vw;
+        transition: 0.3s;
+        font-size: 1.3rem;
+        cursor: pointer;
+        z-index: 1;
+        border: none;
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 1.5rem;
+    }
+    
+    .prev {
+        background-color: #3b3679;
+        border-radius: 1rem;
+        display: inline-block;
+        width: 20rem;
+        text-align: center;
+        position: relative;
+        right: 0vw;
+        transition: 0.3s;
+    }
+    
+    .prev a {
+        text-decoration: none;
+    }
+    
+    footer button:hover {
+        background-color: #383472bb;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 1.5rem;
+    }
+    
+    .prev:hover {
+       background-color: #383472bb;
+    }
+    
+    .prev a:hover {
+      text-decoration: none;
+        color: #ffffff;
+    }
